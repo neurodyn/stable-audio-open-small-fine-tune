@@ -1,0 +1,162 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*_api
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Translations
+*.mo
+*.pot
+
+# Django stuff:
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+# Scrapy stuff:
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# PyBuilder
+target/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# IPython
+profile_default/
+ipython_config.py
+
+# PEP 582; __pypackages__
+__pypackages__/
+
+# Celery stuff
+celerybeat-schedule
+celerybeat.pid
+
+# SageMath parsed files
+*.sage.py
+
+# Environments
+.env
+.venv
+ENV/
+env/
+ENV.bak/
+env.bak/
+
+# Spyder project settings
+.spyderproject
+.spyproject
+
+# Rope project settings
+.ropeproject
+
+# mkdocs documentation
+/site
+
+# mypy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Pyre type checker
+.pyre/
+
+# pytype
+.pytype/
+
+# Cython debug symbols
+cython_debug/
+
+# Stable Audio Tools specific / Project specific
+
+# Large dataset files (generally not versioned directly)
+# If your dataset folder contains only metadata or small samples you WANT to version, adjust this.
+# Otherwise, keep the raw audio data out of the Git history.
+dataset/*
+!dataset/metadata.jsonl # Example: keep metadata if it's small and textual
+# To ignore all files in dataset/my_custom_audio/ but keep the directory structure:
+# dataset/my_custom_audio/*
+# !dataset/my_custom_audio/.gitkeep
+
+# Model checkpoints (can be very large)
+models/*
+!models/.gitkeep # Keep the directory, but not its large content
+
+# Conda environment files (if created locally and you don't want to share precise env reproduction this way)
+# exported-conda-env.yaml
+
+# Logs and temporary files from training/experiments
+*.log
+training_logs/
+demo_outputs/
+
+# IDE/Editor specific
+.vscode/
+.idea/
+
+# Stable Audio Tools specific (cloned repository)
+# If you treat stable-audio-tools as a submodule or a dependency managed
+# outside this project's Git history, you might ignore it.
+# However, if you intend to make and track modifications to it within this project,
+# then you would NOT ignore it.
+# For now, let's assume it's a cloned dependency and might not need to be re-committed here.
+# If you modify it, remove this line or be more specific.
+# stable-audio-tools/
+
+# OS-specific
+.DS_Store
+Thumbs.db 
