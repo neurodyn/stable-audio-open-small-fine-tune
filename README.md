@@ -1,6 +1,10 @@
 # Fine-tuning Stable Audio Open Small
 
-This guide outlines the workflow for fine-tuning the "stable-audio-open-small" model using your own dataset. We will use Conda within WSL (Windows Subsystem for Linux) for managing dependencies and the scripts provided in the `stable-audio-tools` repository.
+This guide is a work in progress to describe the workflow for fine-tuning the "stable-audio-open-small" model using your own dataset. 
+
+We will use Conda for managing dependencies and the scripts provided in the `stable-audio-tools` repository.
+
+This is not yet complete, so do not expect things to work if you try it! TBC!
 
 ## Prerequisites
 
